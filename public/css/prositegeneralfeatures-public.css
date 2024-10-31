@@ -1,0 +1,223 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ 
+ .prositeweb_registration {
+  margin: auto;
+  background-color: transparent;
+  width: 98%;
+  border-radius: 15px;
+  max-width: 600px;
+  padding: 30px;
+  margin-top: 100px;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+ .prositeweb_registration fieldset {
+    padding: 0.35em 0.75em 0.625em;
+    border: none;
+}
+.prositeweb_registration header {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  margin: 0 auto;
+}
+.prositeweb_registration header .header-menu {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  color: #000050;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+.prositeweb_registration header .header-menu li {
+  cursor: pointer;
+}
+.prositeweb_registration header .header-menu #header-login-button {
+  background-color: transparent;
+  border: none;
+}
+.prositeweb_registration header .header-menu #header-login-button:hover + #header-login-line {
+  width: 90%;
+}
+.prositeweb_registration header .header-menu #header-login-line {
+  margin: 5px auto;
+  height: 4px;
+  width: 50%;
+  background-color: #2d38f0;
+  border-radius: 2px;
+  transition-duration: 200ms;
+  display: block;
+}
+.prositeweb_registration header .header-menu #header-register-button {
+  background-color: #fff;
+  padding: 10px 30px 10px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition-duration: 400ms;
+}
+.prositeweb_registration header .header-menu #header-register-button:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.prositeweb_registration #content-wrapper {
+  justify-content: center;
+  gap: 20px;
+}
+.prositeweb_registration #content-wrapper input:not([type="checkbox"]) {
+  margin: 0 auto;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 15px;
+  border: 1px solid;
+  padding: 5px;
+}
+.prositeweb_registration #content-wrapper .client-info:focus {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.prositeweb_registration #content-wrapper .client-info:not(:focus):invalid {
+  border: solid #ff4242 2px;
+}
+.prositeweb_registration #content-wrapper #recovery:link {
+  text-decoration: none;
+  color: #777a84;
+  padding-left: 54%;
+}
+.prositeweb_registration #content-wrapper .signin-button, .prositeweb_registration #content-wrapper .button-primary, .prositeweb_registration .signup-btn {
+  width: 100%;
+  height: 60px;
+  background-color: #313af1;
+  border: none;
+  margin: 20px auto 40px;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 15px;
+  font-weight: 400;
+  transition-duration: 200ms;
+}
+.prositeweb_registration #content-wrapper .signin-button:hover {
+  box-shadow: 0 20px 20px rgba(49, 59, 241, 0.5);
+}
+.prositeweb_registration #content-wrapper #other-option-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 70%;
+}
+.prositeweb_registration #content-wrapper #other-option-wrapper .line {
+  width: 30%;
+  height: 2px;
+  background-color: #d8d8d9;
+  margin-top: 0.6em;
+}
+.prositeweb_registration #content-wrapper #other-option-wrapper #continue-with {
+  color: #9599ab;
+}
+.prositeweb_registration #content-wrapper #other-icon-wrapper {
+  margin: 10px auto;
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.prositeweb_registration #content-wrapper #other-icon-wrapper .other-icon {
+  display: flex;
+  width: 25%;
+  height: 60px;
+  background-color: transparent;
+  border: solid #dddede 2px;
+  border-radius: 10px;
+  transition-duration: 400ms;
+}
+.prositeweb_registration #content-wrapper #other-icon-wrapper .other-icon:hover {
+  border: solid #fff 2px;
+  background-color: #fff;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
+.prositeweb_registration #content-wrapper #other-icon-wrapper .other-icon svg {
+  height: 60%;
+  margin: auto;
+}
+.prositeweb_registration ul {
+  list-style-type: none !important;
+}
+
+
+.tab-menu ul{
+	margin: 0;
+	padding: 0;
+}
+.tab-menu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.tab-menu ul li a{
+	text-decoration: none;
+	color: #000;
+	 background-color: #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition-duration: 400ms;
+}
+.tab-menu ul li a.active-a{
+	background-color: #588d7d;
+	color: #ffffff;
+}
+.tab{
+	display: none;
+}
+.tab h2{
+	color: rgba(0,0,0,.7);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.tab p{
+	color: rgba(0,0,0,0.6);
+	text-align: justify;
+}
+.tab-active{
+	display: block;
+}
+.lemenu {
+    text-align: center;
+}
+.ErrorMsg {
+    color: red !important;
+    font-weight: 900;
+    text-align: left !important;
+}
+.register-messag {
+    text-align: left !important;
+}
+.show_passwords {
+    display: none;
+}
+a.tab-a{
+    font-weight: 900;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.btn-social.btn-google {
+    border: solid;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.btn-social.btn-facebook {
+    border: solid;
+    padding: 10px;
+}
+
+.btn-social.btn-facebook img {
+    width: 38px;
+}
+
+@media only screen and (max-width: 600px) {
+.btn-google, .btn-facebook {
+    display: block;
+    border:solid;
+}
+}

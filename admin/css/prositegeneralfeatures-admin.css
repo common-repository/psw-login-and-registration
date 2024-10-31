@@ -1,0 +1,67 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ 
+ /**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ 
+ #psw_front_end_registration {
+ position: relative;
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  padding: 25px;
+ }
+ 
+  #psw_front_end_registration form {
+  position: relative;
+  width: 80%;
+  margin: 50px auto;
+  padding: 50px;
+  background: white;
+  text-align: center;
+}
+
+
+#psw_front_end_registration  input:not([type="radio"]), #psw_front_end_registration  select{
+  display: inline-block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px dashed lightblue;
+  outline: none;
+  font-size: 20px;
+  font-family: 'Economica', 'Arial', sans-serif;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  max-width: 100% !important;
+  min-height: 50px;
+}
+
+#psw_front_end_registration  input:focus, #psw_front_end_registration  select:focus { border-color: deepskyblue; }
+
+#psw_front_end_registration  button {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  padding: 10px 15px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  font-family: 'Economica', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  background: mediumblue;
+  transition: all 0.2s ease;
+}
+
+#psw_front_end_registration  button:hover { background: midnightblue; }
+
+#psw_front_end_registration  button.valid,
+#psw_front_end_registration  button.valid:hover { background: mediumseagreen; }

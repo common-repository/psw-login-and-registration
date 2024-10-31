@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prosite General Features\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-05-05 17:08+0000\n"
+"PO-Revision-Date: 2023-04-18 20:01+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (Canada)\n"
+"Language: en_CA\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3\n"
+"X-Domain: prositegeneralfeatures"
+
+#: public/class-prositegeneralfeatures-public.php:147
+msgid " account"
+msgstr " Account"
+
+#: public/class-prositegeneralfeatures-public.php:148
+msgid " account "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:146
+msgid " account password reset"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:152
+msgid " account team"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:148
+msgid " Password reset code"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:148
+msgid " Please use this code to reset the password for the"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:277
+msgid " Team"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:275
+msgid " to activate your account"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:280
+msgid " website "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:151
+msgid ", you can ignore the email or reach out to us from our website "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:159
+msgid ", you will received an instruction to reset your password by email"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:272
+msgid ". And the Password to login"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:280
+msgid "A new user just created an account on "
+msgstr ""
+
+#: public/partials/part/register.php:35
+msgid "Confirm your password"
+msgstr ""
+
+#: public/partials/part/register.php:5
+msgid "Create an account"
+msgstr ""
+
+#. id
+#: admin/plugin_setting.php:83
+msgid "Disable the default login and registration (wp-login.php)"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:282
+msgid "email "
+msgstr ""
+
+#: public/partials/part/register.php:27
+msgid "Email address"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:168
+msgid "Enter your new password"
+msgstr ""
+
+#: public/partials/part/register.php:31
+msgid "Enter your password"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:300
+msgid "Error Occured please fill up the sign up form carefully."
+msgstr ""
+
+#. id
+#: admin/plugin_setting.php:67
+msgid "Extra emails (comma separated)"
+msgstr ""
+
+#: public/partials/part/register.php:13
+msgid "First Name"
+msgstr ""
+
+#: public/partials/part/forget.php:11
+msgid "Go back to log in"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:263
+msgid "Hello "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:149
+msgid "Here is your code:"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:273
+msgid "Hi  "
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.prositeweb.ca/"
+msgstr ""
+
+#. URI of the plugin
+msgid ""
+"https://www.prositeweb.ca/creation-de-compte-et-connexion-via-les-pages-du-"
+"sites-web/"
+msgstr ""
+
+#: public/partials/part/register.php:42
+msgid "I already have an account"
+msgstr ""
+
+#: public/partials/part/forget.php:19 public/partials/part/login.php:33
+msgid "I don't have an account"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:159
+msgid "If there is an account associated to "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:151
+msgid "If you don't recognise the "
+msgstr ""
+
+#: public/partials/part/register.php:17
+msgid "Last Name"
+msgstr ""
+
+#: public/partials/part/login.php:16 public/partials/part/login.php:29
+msgid "Log in"
+msgstr ""
+
+#: public/partials/registration_form.php:11
+msgid "Please check your email address for the security token"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:275
+msgid "Please click on the link "
+msgstr ""
+
+#: public/partials/registration_form.php:13
+msgid "Please enter a username"
+msgstr ""
+
+#: public/partials/registration_form.php:9
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: public/partials/registration_form.php:4
+msgid "Please enter a valid email address or username"
+msgstr ""
+
+#: public/partials/registration_form.php:5
+msgid "Please enter a valid password"
+msgstr ""
+
+#: public/partials/registration_form.php:18
+msgid "Please type a valid email address"
+msgstr ""
+
+#: public/partials/registration_form.php:14
+msgid "Please type your first name"
+msgstr ""
+
+#: public/partials/registration_form.php:15
+msgid "Please type your last name"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:168
+msgid "Please type your new password"
+msgstr ""
+
+#: public/partials/registration_form.php:16
+msgid "Please type your password"
+msgstr ""
+
+#. Author of the plugin
+msgid "Prositeweb Inc."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"PSW  - Login and registration is a plugin that will enable you to login or "
+"register on a wordPress website from the front-end. Enable the PSW - Login "
+"and register to improve security of your website"
+msgstr ""
+
+#. page_title
+#: admin/plugin_setting.php:17 admin/plugin_setting.php:18
+#: admin/plugin_setting.php:29
+msgid "PSW -  Front-end Login and registration"
+msgstr ""
+
+#. Name of the plugin
+msgid "PSW - Login and registration"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:375
+msgid "PSW registration template"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:168
+msgid "Re-enter your new password"
+msgstr ""
+
+#: public/partials/part/login.php:27
+msgid "Recovery password"
+msgstr ""
+
+#: public/partials/part/register.php:44
+msgid "Register"
+msgstr ""
+
+#: public/partials/part/register.php:52
+msgid "Registration is disabled"
+msgstr ""
+
+#: public/partials/part/forget.php:14
+msgid "Reset"
+msgstr ""
+
+#: public/partials/part/forget.php:4
+msgid "Reset password"
+msgstr ""
+
+#: public/partials/registration_form.php:10
+msgid "Security token"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:280
+msgid "See details below "
+msgstr ""
+
+#. id
+#: admin/plugin_setting.php:52
+msgid "Settings"
+msgstr ""
+
+#: public/partials/part/forget.php:9 public/partials/part/login.php:24
+#: public/partials/part/register.php:40
+msgid "Show Password "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:274
+msgid "Thank you for creating an account on "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:151
+msgid "Thanks"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:263
+msgid ""
+"Thanks for creating an account on our website. Please check your email for "
+"activation link. If you  can not see the email in the inbox folder, you may "
+"have to check the spam folder."
+msgstr ""
+
+#: public/partials/registration_form.php:8
+msgid "The two passwords are not the same"
+msgstr ""
+
+#: public/partials/registration_form.php:12
+msgid "Update"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:298
+msgid "User name already exixts."
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:295
+msgid "User Name and Email are mandatory"
+msgstr ""
+
+#. id
+#: admin/plugin_setting.php:59
+msgid "User registration default role"
+msgstr ""
+
+#. id
+#: admin/plugin_setting.php:75
+msgid "user registration page"
+msgstr ""
+
+#: public/partials/part/register.php:22
+msgid "Username"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:281
+msgid "username "
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:184
+msgid "We have reset your password, you can now log in"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:272
+msgid "Welcome to "
+msgstr ""
+
+#: public/partials/registration_form.php:6
+msgid "Wrong email or password"
+msgstr ""
+
+#: public/partials/part/login.php:4
+msgid "Your account is activated"
+msgstr ""
+
+#: public/partials/registration_form.php:7
+msgid ""
+"Your account is not active. Please check your email to validate your account."
+" If you can not find the email, please click on the reset link to reset your "
+"password."
+msgstr ""
+
+#: public/partials/part/forget.php:6
+msgid "Your Email address"
+msgstr ""
+
+#: public/partials/part/login.php:18
+msgid "Your Email address or username"
+msgstr ""
+
+#: public/partials/part/login.php:20
+msgid "Your password"
+msgstr ""
+
+#: public/partials/registration_form.php:17
+msgid "Your passwords do not match"
+msgstr ""
+
+#: public/class-prositegeneralfeatures-public.php:304
+msgid "Your username or email already exists"
+msgstr ""
